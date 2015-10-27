@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		106D0AF1C9A721196498BDFB /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 490D20E413B2B90BDDF19CB6 /* JBBarChartView.h */; };
+		1ADF68EFB11231BC23D57813 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5833A229B0B6CAFCED4937 /* Pods-dummy.m */; };
+		1B55170455D2F062EC7D06B0 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E3C68BC456277EA350F39 /* JBLineChartView.m */; };
+		261ABEBA4F269227901A995B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752659CB9DB95A826AE72862 /* Foundation.framework */; };
+		2F88AFFEA7768A0114617BC9 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E3C68BC456277EA350F39 /* JBLineChartView.m */; };
+		430ECD98B7F2B1FBD20030D9 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 542E3C68BC456277EA350F39 /* JBLineChartView.m */; };
+		48F9EFC7A2242EA2870CF295 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF274D8CA03A11A8E804DF9 /* JBChartView.m */; };
+		53D199187D6238DEA73FE78A /* Pods-mychart-JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0AC3FCE23F21D69E31F40 /* Pods-mychart-JBChartView-dummy.m */; };
+		5C89DB1F351347FFB96DD06F /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE53242C5A02C0937BE3D63 /* JBBarChartView.m */; };
+		5CA3B584E21AA1024EC1BBE7 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE53242C5A02C0937BE3D63 /* JBBarChartView.m */; };
+		61BC92DC2DDB30E82FA5B06F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752659CB9DB95A826AE72862 /* Foundation.framework */; };
+		61E98083ABB5F8A46E2E737D /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6711D5BC7F8E55718E9658C9 /* JBLineChartView.h */; };
+		7505DD4A6C4969B469D887EF /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF274D8CA03A11A8E804DF9 /* JBChartView.m */; };
+		7F133DB5704B5759BD3759A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752659CB9DB95A826AE72862 /* Foundation.framework */; };
+		8A917758702E18C8673900FA /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 447747CA36B5042E4413D48C /* JBChartView.h */; };
+		8DB1778D5D031B264CEB3761 /* Pods-mychartTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA3F53A4B9B18D605BB323B /* Pods-mychartTests-dummy.m */; };
+		8F1A4FAF3D5B5723615E8309 /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE53242C5A02C0937BE3D63 /* JBBarChartView.m */; };
+		9F808449E445A01C5D9447CF /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF274D8CA03A11A8E804DF9 /* JBChartView.m */; };
+		A3B67D69AD2310A84567A1D6 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 447747CA36B5042E4413D48C /* JBChartView.h */; };
+		A84DFAAE013525AF973D6061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752659CB9DB95A826AE72862 /* Foundation.framework */; };
+		B2552F1325378E5A2CDEDC10 /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 490D20E413B2B90BDDF19CB6 /* JBBarChartView.h */; };
+		B4D62EDFE999557C0E9519EC /* Pods-JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5434CFCBDD5F070277EAE1B2 /* Pods-JBChartView-dummy.m */; };
+		C89AC5963BCA310C12980FB8 /* Pods-mychart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A849982BAD232004D987E1B6 /* Pods-mychart-dummy.m */; };
+		EED94108730D982F1C8984CC /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 447747CA36B5042E4413D48C /* JBChartView.h */; };
+		EF9085335AC76ECEFA78E5E7 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6711D5BC7F8E55718E9658C9 /* JBLineChartView.h */; };
+		F32F40ED824C5AAAEBE2F41E /* Pods-mychartTests-JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAEBF3C8002D61E0B8C5F684 /* Pods-mychartTests-JBChartView-dummy.m */; };
+		F4BF3909E5458D631B2DF565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752659CB9DB95A826AE72862 /* Foundation.framework */; };
+		F97276314391A31E1886739F /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 490D20E413B2B90BDDF19CB6 /* JBBarChartView.h */; };
+		FCF0555F914651CA036C8029 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752659CB9DB95A826AE72862 /* Foundation.framework */; };
+		FD68658DF7E0364CF0697584 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6711D5BC7F8E55718E9658C9 /* JBLineChartView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DDB2B720A12C71BB2346757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93FB070F4FB5574D3C29B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C10984137B7AC0F5DBF9F8D0;
+			remoteInfo = "Pods-JBChartView";
+		};
+		5697B55C21C64C8FE700CF8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93FB070F4FB5574D3C29B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05245A6BDAC25A1608B2A823;
+			remoteInfo = "Pods-mychartTests-JBChartView";
+		};
+		C223D5C23FD78A255CBFDCC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93FB070F4FB5574D3C29B8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85872D96BA093D547D0E6A35;
+			remoteInfo = "Pods-mychart-JBChartView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		076CA12E322D96AF171DE871 /* Pods-mychart-JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mychart-JBChartView.xcconfig"; path = "../Pods-mychart-JBChartView/Pods-mychart-JBChartView.xcconfig"; sourceTree = "<group>"; };
+		0CEDCA17ADF17A2FD22E3BDA /* Pods-JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JBChartView.xcconfig"; sourceTree = "<group>"; };
+		1FC803A44E0842A04A446D29 /* Pods-mychartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mychartTests.release.xcconfig"; sourceTree = "<group>"; };
+		29A44BF88D58CA2B54D12D37 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D72C54E8D92E7D92EFA974C /* Pods-JBChartView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JBChartView-Private.xcconfig"; sourceTree = "<group>"; };
+		2FA3F53A4B9B18D605BB323B /* Pods-mychartTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mychartTests-dummy.m"; sourceTree = "<group>"; };
+		304E2F4DC1784F7EC6003A02 /* Pods-mychart-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mychart-resources.sh"; sourceTree = "<group>"; };
+		3B0251E5EE301BEBEAE192A5 /* Pods-JBChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JBChartView-prefix.pch"; sourceTree = "<group>"; };
+		3D7B974F6D01692DF17193F2 /* Pods-mychartTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mychartTests-environment.h"; sourceTree = "<group>"; };
+		3E5833A229B0B6CAFCED4937 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		447747CA36B5042E4413D48C /* JBChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBChartView.h; path = Classes/JBChartView.h; sourceTree = "<group>"; };
+		490D20E413B2B90BDDF19CB6 /* JBBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBBarChartView.h; path = Classes/JBBarChartView.h; sourceTree = "<group>"; };
+		4934404295DFA8FD368C14C3 /* Pods-mychart-JBChartView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mychart-JBChartView-Private.xcconfig"; path = "../Pods-mychart-JBChartView/Pods-mychart-JBChartView-Private.xcconfig"; sourceTree = "<group>"; };
+		4A00EAF9457390785DF75734 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		4A8DC1DC8F939B31468FBCDF /* Pods-mychartTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mychartTests-resources.sh"; sourceTree = "<group>"; };
+		542E3C68BC456277EA350F39 /* JBLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = Classes/JBLineChartView.m; sourceTree = "<group>"; };
+		5434CFCBDD5F070277EAE1B2 /* Pods-JBChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JBChartView-dummy.m"; sourceTree = "<group>"; };
+		571176DB8B0FFC767607EE33 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		5AE0AC3FCE23F21D69E31F40 /* Pods-mychart-JBChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-mychart-JBChartView-dummy.m"; path = "../Pods-mychart-JBChartView/Pods-mychart-JBChartView-dummy.m"; sourceTree = "<group>"; };
+		5BB8D9E0CA588B7203DD380F /* libPods-JBChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JBChartView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB48D7AE1715E8AB425D893 /* Pods-mychartTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mychartTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5FE47D32266B2CA683A4EAB0 /* Pods-mychartTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mychartTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6711D5BC7F8E55718E9658C9 /* JBLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartView.h; path = Classes/JBLineChartView.h; sourceTree = "<group>"; };
+		7121630CBD608E1BBAB52BA5 /* libPods-mychartTests-JBChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mychartTests-JBChartView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72485F06E1FB5A4FB842E444 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		752659CB9DB95A826AE72862 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78DA3992C29DD233E030AB57 /* libPods-mychart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mychart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79998D0F41AED144C6F866EF /* Pods-mychart-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mychart-acknowledgements.plist"; sourceTree = "<group>"; };
+		79E1EEC54ECF60B3AB657B59 /* libPods-mychartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mychartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DB6CBA9AC5804B9A3193D7 /* Pods-mychartTests-JBChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-mychartTests-JBChartView-prefix.pch"; path = "../Pods-mychartTests-JBChartView/Pods-mychartTests-JBChartView-prefix.pch"; sourceTree = "<group>"; };
+		97AC4412F1540FCAF7DA6484 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D60C689C15D1E0A9ACA33FA /* libPods-mychart-JBChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mychart-JBChartView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F6227F292A737A8EDC8A3F /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		A849982BAD232004D987E1B6 /* Pods-mychart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mychart-dummy.m"; sourceTree = "<group>"; };
+		AC6D0E5AC5E602CFE45FD73F /* Pods-mychart-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mychart-environment.h"; sourceTree = "<group>"; };
+		B0A12F3413B55032C52388A5 /* Pods-mychartTests-JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mychartTests-JBChartView.xcconfig"; path = "../Pods-mychartTests-JBChartView/Pods-mychartTests-JBChartView.xcconfig"; sourceTree = "<group>"; };
+		B802E634F38AADDC29FF6A05 /* Pods-mychart-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mychart-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC42901745EF0EC74D63A204 /* Pods-mychartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mychartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC6827FB824735841B634B27 /* Pods-mychart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mychart.release.xcconfig"; sourceTree = "<group>"; };
+		D0444B604783F31AA07E39D7 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		D400A15D19EF287ECF282B27 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA36B21AD17926013EF20681 /* Pods-mychart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mychart.debug.xcconfig"; sourceTree = "<group>"; };
+		EAEBF3C8002D61E0B8C5F684 /* Pods-mychartTests-JBChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-mychartTests-JBChartView-dummy.m"; path = "../Pods-mychartTests-JBChartView/Pods-mychartTests-JBChartView-dummy.m"; sourceTree = "<group>"; };
+		F6A907746AD19323BAA92322 /* Pods-mychartTests-JBChartView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mychartTests-JBChartView-Private.xcconfig"; path = "../Pods-mychartTests-JBChartView/Pods-mychartTests-JBChartView-Private.xcconfig"; sourceTree = "<group>"; };
+		F9AA06701885920B70C51BEB /* Pods-mychart-JBChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-mychart-JBChartView-prefix.pch"; path = "../Pods-mychart-JBChartView/Pods-mychart-JBChartView-prefix.pch"; sourceTree = "<group>"; };
+		FCE53242C5A02C0937BE3D63 /* JBBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBBarChartView.m; path = Classes/JBBarChartView.m; sourceTree = "<group>"; };
+		FDF274D8CA03A11A8E804DF9 /* JBChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBChartView.m; path = Classes/JBChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728AB8E203C3FD67E5E3DD85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BF3909E5458D631B2DF565 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83281CDAC151EE66DBCF1AE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BC92DC2DDB30E82FA5B06F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6C6FEB73C61FA9005D1E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84DFAAE013525AF973D6061 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6AA426D9F1ABBBF5B7C511B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F133DB5704B5759BD3759A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6E7E6AD211E380C367B11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261ABEBA4F269227901A995B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59DC4EE70130A573CF42F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF0555F914651CA036C8029 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07079BD6E8FB3D47290F978F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				787FEC1435D2C5E1AFBC5923 /* JBChartView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		15F40A50819EB773625C8302 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEDCA17ADF17A2FD22E3BDA /* Pods-JBChartView.xcconfig */,
+				2D72C54E8D92E7D92EFA974C /* Pods-JBChartView-Private.xcconfig */,
+				5434CFCBDD5F070277EAE1B2 /* Pods-JBChartView-dummy.m */,
+				3B0251E5EE301BEBEAE192A5 /* Pods-JBChartView-prefix.pch */,
+				076CA12E322D96AF171DE871 /* Pods-mychart-JBChartView.xcconfig */,
+				4934404295DFA8FD368C14C3 /* Pods-mychart-JBChartView-Private.xcconfig */,
+				5AE0AC3FCE23F21D69E31F40 /* Pods-mychart-JBChartView-dummy.m */,
+				F9AA06701885920B70C51BEB /* Pods-mychart-JBChartView-prefix.pch */,
+				B0A12F3413B55032C52388A5 /* Pods-mychartTests-JBChartView.xcconfig */,
+				F6A907746AD19323BAA92322 /* Pods-mychartTests-JBChartView-Private.xcconfig */,
+				EAEBF3C8002D61E0B8C5F684 /* Pods-mychartTests-JBChartView-dummy.m */,
+				82DB6CBA9AC5804B9A3193D7 /* Pods-mychartTests-JBChartView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JBChartView";
+			sourceTree = "<group>";
+		};
+		1631D4DFF4F536E3FAA1A913 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5966CC4BE96818A1CFFB89B /* Pods */,
+				9302B4DA19BFC2BE77A9A017 /* Pods-mychart */,
+				745DB70CBD6F4ABEFB8700FF /* Pods-mychartTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		745DB70CBD6F4ABEFB8700FF /* Pods-mychartTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE47D32266B2CA683A4EAB0 /* Pods-mychartTests-acknowledgements.markdown */,
+				5EB48D7AE1715E8AB425D893 /* Pods-mychartTests-acknowledgements.plist */,
+				2FA3F53A4B9B18D605BB323B /* Pods-mychartTests-dummy.m */,
+				3D7B974F6D01692DF17193F2 /* Pods-mychartTests-environment.h */,
+				4A8DC1DC8F939B31468FBCDF /* Pods-mychartTests-resources.sh */,
+				BC42901745EF0EC74D63A204 /* Pods-mychartTests.debug.xcconfig */,
+				1FC803A44E0842A04A446D29 /* Pods-mychartTests.release.xcconfig */,
+			);
+			name = "Pods-mychartTests";
+			path = "Target Support Files/Pods-mychartTests";
+			sourceTree = "<group>";
+		};
+		76FE059C2F236CF8AA4AAE11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A44BF88D58CA2B54D12D37 /* libPods.a */,
+				5BB8D9E0CA588B7203DD380F /* libPods-JBChartView.a */,
+				78DA3992C29DD233E030AB57 /* libPods-mychart.a */,
+				9D60C689C15D1E0A9ACA33FA /* libPods-mychart-JBChartView.a */,
+				79E1EEC54ECF60B3AB657B59 /* libPods-mychartTests.a */,
+				7121630CBD608E1BBAB52BA5 /* libPods-mychartTests-JBChartView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		787FEC1435D2C5E1AFBC5923 /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				490D20E413B2B90BDDF19CB6 /* JBBarChartView.h */,
+				FCE53242C5A02C0937BE3D63 /* JBBarChartView.m */,
+				447747CA36B5042E4413D48C /* JBChartView.h */,
+				FDF274D8CA03A11A8E804DF9 /* JBChartView.m */,
+				6711D5BC7F8E55718E9658C9 /* JBLineChartView.h */,
+				542E3C68BC456277EA350F39 /* JBLineChartView.m */,
+				15F40A50819EB773625C8302 /* Support Files */,
+			);
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+		907893F09D2E2CCE5EB2681A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				752659CB9DB95A826AE72862 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9302B4DA19BFC2BE77A9A017 /* Pods-mychart */ = {
+			isa = PBXGroup;
+			children = (
+				B802E634F38AADDC29FF6A05 /* Pods-mychart-acknowledgements.markdown */,
+				79998D0F41AED144C6F866EF /* Pods-mychart-acknowledgements.plist */,
+				A849982BAD232004D987E1B6 /* Pods-mychart-dummy.m */,
+				AC6D0E5AC5E602CFE45FD73F /* Pods-mychart-environment.h */,
+				304E2F4DC1784F7EC6003A02 /* Pods-mychart-resources.sh */,
+				DA36B21AD17926013EF20681 /* Pods-mychart.debug.xcconfig */,
+				CC6827FB824735841B634B27 /* Pods-mychart.release.xcconfig */,
+			);
+			name = "Pods-mychart";
+			path = "Target Support Files/Pods-mychart";
+			sourceTree = "<group>";
+		};
+		A5966CC4BE96818A1CFFB89B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D400A15D19EF287ECF282B27 /* Pods-acknowledgements.markdown */,
+				A1F6227F292A737A8EDC8A3F /* Pods-acknowledgements.plist */,
+				3E5833A229B0B6CAFCED4937 /* Pods-dummy.m */,
+				D0444B604783F31AA07E39D7 /* Pods-environment.h */,
+				72485F06E1FB5A4FB842E444 /* Pods-resources.sh */,
+				4A00EAF9457390785DF75734 /* Pods.debug.xcconfig */,
+				571176DB8B0FFC767607EE33 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		ABB4C474C872331F933B0121 = {
+			isa = PBXGroup;
+			children = (
+				97AC4412F1540FCAF7DA6484 /* Podfile */,
+				CDAB0630BCAEA3B27D5783D3 /* Frameworks */,
+				07079BD6E8FB3D47290F978F /* Pods */,
+				76FE059C2F236CF8AA4AAE11 /* Products */,
+				1631D4DFF4F536E3FAA1A913 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CDAB0630BCAEA3B27D5783D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907893F09D2E2CCE5EB2681A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37E32BA7C4ADDE7F6D019711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106D0AF1C9A721196498BDFB /* JBBarChartView.h in Headers */,
+				8A917758702E18C8673900FA /* JBChartView.h in Headers */,
+				61E98083ABB5F8A46E2E737D /* JBLineChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA97F2CF4DA5AC921F51F5AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F97276314391A31E1886739F /* JBBarChartView.h in Headers */,
+				EED94108730D982F1C8984CC /* JBChartView.h in Headers */,
+				EF9085335AC76ECEFA78E5E7 /* JBLineChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56788659005BEA9CE5E4F2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2552F1325378E5A2CDEDC10 /* JBBarChartView.h in Headers */,
+				A3B67D69AD2310A84567A1D6 /* JBChartView.h in Headers */,
+				FD68658DF7E0364CF0697584 /* JBLineChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05245A6BDAC25A1608B2A823 /* Pods-mychartTests-JBChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D532AC3382C6B2A76C461C62 /* Build configuration list for PBXNativeTarget "Pods-mychartTests-JBChartView" */;
+			buildPhases = (
+				A31DB2D7A26470CB22119B72 /* Sources */,
+				F59DC4EE70130A573CF42F2C /* Frameworks */,
+				37E32BA7C4ADDE7F6D019711 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mychartTests-JBChartView";
+			productName = "Pods-mychartTests-JBChartView";
+			productReference = 7121630CBD608E1BBAB52BA5 /* libPods-mychartTests-JBChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1BECE0B3882F302657AC658D /* Pods-mychart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0E9178A686D7ADAA87DCE3 /* Build configuration list for PBXNativeTarget "Pods-mychart" */;
+			buildPhases = (
+				10692A982D55FEF25EFB77AA /* Sources */,
+				728AB8E203C3FD67E5E3DD85 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F71721452CF5FF5A145A6E3 /* PBXTargetDependency */,
+			);
+			name = "Pods-mychart";
+			productName = "Pods-mychart";
+			productReference = 78DA3992C29DD233E030AB57 /* libPods-mychart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		85872D96BA093D547D0E6A35 /* Pods-mychart-JBChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37429620EFD5B002FE6F64D /* Build configuration list for PBXNativeTarget "Pods-mychart-JBChartView" */;
+			buildPhases = (
+				27A6B75251D21A23E5C44400 /* Sources */,
+				A6AA426D9F1ABBBF5B7C511B /* Frameworks */,
+				AA97F2CF4DA5AC921F51F5AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-mychart-JBChartView";
+			productName = "Pods-mychart-JBChartView";
+			productReference = 9D60C689C15D1E0A9ACA33FA /* libPods-mychart-JBChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C10984137B7AC0F5DBF9F8D0 /* Pods-JBChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F501BD7FDB89C5268671E72A /* Build configuration list for PBXNativeTarget "Pods-JBChartView" */;
+			buildPhases = (
+				17642D8B33404EC1BFCBD97F /* Sources */,
+				9E6C6FEB73C61FA9005D1E1B /* Frameworks */,
+				F56788659005BEA9CE5E4F2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JBChartView";
+			productName = "Pods-JBChartView";
+			productReference = 5BB8D9E0CA588B7203DD380F /* libPods-JBChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFAE6EEFE87D6411E4F7E7BC /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44115DAD909A3220229B50CD /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				0DECE90B122EB5AEF9958149 /* Sources */,
+				83281CDAC151EE66DBCF1AE5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A09D6EB1EF7B618C04B33B0 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 29A44BF88D58CA2B54D12D37 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F3607431BFD51C421E1DA23F /* Pods-mychartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8F1A12C6EF3FF3B8033FA2 /* Build configuration list for PBXNativeTarget "Pods-mychartTests" */;
+			buildPhases = (
+				921F2EF7468CDADD53975290 /* Sources */,
+				BA6E7E6AD211E380C367B11E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE35F8400732550827263FC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-mychartTests";
+			productName = "Pods-mychartTests";
+			productReference = 79E1EEC54ECF60B3AB657B59 /* libPods-mychartTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93FB070F4FB5574D3C29B8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 9A0AC8C3BF62B71C0DC65ADB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ABB4C474C872331F933B0121;
+			productRefGroup = 76FE059C2F236CF8AA4AAE11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFAE6EEFE87D6411E4F7E7BC /* Pods */,
+				C10984137B7AC0F5DBF9F8D0 /* Pods-JBChartView */,
+				1BECE0B3882F302657AC658D /* Pods-mychart */,
+				85872D96BA093D547D0E6A35 /* Pods-mychart-JBChartView */,
+				F3607431BFD51C421E1DA23F /* Pods-mychartTests */,
+				05245A6BDAC25A1608B2A823 /* Pods-mychartTests-JBChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DECE90B122EB5AEF9958149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADF68EFB11231BC23D57813 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10692A982D55FEF25EFB77AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89AC5963BCA310C12980FB8 /* Pods-mychart-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17642D8B33404EC1BFCBD97F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA3B584E21AA1024EC1BBE7 /* JBBarChartView.m in Sources */,
+				9F808449E445A01C5D9447CF /* JBChartView.m in Sources */,
+				2F88AFFEA7768A0114617BC9 /* JBLineChartView.m in Sources */,
+				B4D62EDFE999557C0E9519EC /* Pods-JBChartView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27A6B75251D21A23E5C44400 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C89DB1F351347FFB96DD06F /* JBBarChartView.m in Sources */,
+				7505DD4A6C4969B469D887EF /* JBChartView.m in Sources */,
+				1B55170455D2F062EC7D06B0 /* JBLineChartView.m in Sources */,
+				53D199187D6238DEA73FE78A /* Pods-mychart-JBChartView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921F2EF7468CDADD53975290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DB1778D5D031B264CEB3761 /* Pods-mychartTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A31DB2D7A26470CB22119B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1A4FAF3D5B5723615E8309 /* JBBarChartView.m in Sources */,
+				48F9EFC7A2242EA2870CF295 /* JBChartView.m in Sources */,
+				430ECD98B7F2B1FBD20030D9 /* JBLineChartView.m in Sources */,
+				F32F40ED824C5AAAEBE2F41E /* Pods-mychartTests-JBChartView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F71721452CF5FF5A145A6E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mychart-JBChartView";
+			target = 85872D96BA093D547D0E6A35 /* Pods-mychart-JBChartView */;
+			targetProxy = C223D5C23FD78A255CBFDCC2 /* PBXContainerItemProxy */;
+		};
+		1A09D6EB1EF7B618C04B33B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JBChartView";
+			target = C10984137B7AC0F5DBF9F8D0 /* Pods-JBChartView */;
+			targetProxy = 2DDB2B720A12C71BB2346757 /* PBXContainerItemProxy */;
+		};
+		DE35F8400732550827263FC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mychartTests-JBChartView";
+			target = 05245A6BDAC25A1608B2A823 /* Pods-mychartTests-JBChartView */;
+			targetProxy = 5697B55C21C64C8FE700CF8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04730602418815D51587A36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4934404295DFA8FD368C14C3 /* Pods-mychart-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mychart-JBChartView/Pods-mychart-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		04F425D210F7B7802EE9CE35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72C54E8D92E7D92EFA974C /* Pods-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JBChartView/Pods-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C5221F40C31EF4ABB6B6B44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA36B21AD17926013EF20681 /* Pods-mychart.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2A525FDC01FEE3325EB730C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FE789A62E609D24FB0D6D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A907746AD19323BAA92322 /* Pods-mychartTests-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mychartTests-JBChartView/Pods-mychartTests-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		645406CC08F57009FA806B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC42901745EF0EC74D63A204 /* Pods-mychartTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		86615E444E05E8EA31114F10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D72C54E8D92E7D92EFA974C /* Pods-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JBChartView/Pods-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8FCAB0F97B4EBF4AE9B2E609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC803A44E0842A04A446D29 /* Pods-mychartTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D03BE8825BBA10514311C6EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4934404295DFA8FD368C14C3 /* Pods-mychart-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mychart-JBChartView/Pods-mychart-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D63BEEE9E42D64DB95FB3899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6827FB824735841B634B27 /* Pods-mychart.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2B890A20F2B0C34282A7AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571176DB8B0FFC767607EE33 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EACB41E73645E7CDB066C89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EBCD338C740EB9D546A70120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A907746AD19323BAA92322 /* Pods-mychartTests-JBChartView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-mychartTests-JBChartView/Pods-mychartTests-JBChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF30EAEBC75DE01E81EC9809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A00EAF9457390785DF75734 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44115DAD909A3220229B50CD /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF30EAEBC75DE01E81EC9809 /* Debug */,
+				E2B890A20F2B0C34282A7AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0AC8C3BF62B71C0DC65ADB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACB41E73645E7CDB066C89A /* Debug */,
+				2A525FDC01FEE3325EB730C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0E9178A686D7ADAA87DCE3 /* Build configuration list for PBXNativeTarget "Pods-mychart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C5221F40C31EF4ABB6B6B44 /* Debug */,
+				D63BEEE9E42D64DB95FB3899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37429620EFD5B002FE6F64D /* Build configuration list for PBXNativeTarget "Pods-mychart-JBChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04730602418815D51587A36E /* Debug */,
+				D03BE8825BBA10514311C6EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D532AC3382C6B2A76C461C62 /* Build configuration list for PBXNativeTarget "Pods-mychartTests-JBChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCD338C740EB9D546A70120 /* Debug */,
+				36FE789A62E609D24FB0D6D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F501BD7FDB89C5268671E72A /* Build configuration list for PBXNativeTarget "Pods-JBChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F425D210F7B7802EE9CE35 /* Debug */,
+				86615E444E05E8EA31114F10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8F1A12C6EF3FF3B8033FA2 /* Build configuration list for PBXNativeTarget "Pods-mychartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				645406CC08F57009FA806B24 /* Debug */,
+				8FCAB0F97B4EBF4AE9B2E609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93FB070F4FB5574D3C29B8D /* Project object */;
+}
